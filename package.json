@@ -1,0 +1,24 @@
+{
+  "name": "node-typescript-postgresql",
+  "version": "1.0.0",
+  "description": "It contains various function and operation of postrgresql with node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingshuknandy2016/node-typescript-postgresql.git"
+  },
+  "keywords": [
+    "PostgreSQL",
+    "NodeJS",
+    "Typescript"
+  ],
+  "author": "Kingshuk Nandy <kingshuknandy2021@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kingshuknandy2016/node-typescript-postgresql/issues"
+  },
+  "homepage": "https://github.com/kingshuknandy2016/node-typescript-postgresql#readme"
+}
