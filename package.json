@@ -4,7 +4,14 @@
   "description": "It contains various function and operation of postrgresql with node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "npx nodemon",
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js",
+    "lint": "eslint",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:connect": "npm run build && node  build/migrationdb.js",
+    "migrate:initialize": "node node_modules/db-migrate/bin/db-migrate up",
+    "migrate:all-delete": "node node_modules/db-migrate/bin/db-migrate down"
   },
   "repository": {
     "type": "git",
@@ -20,5 +27,20 @@
   "bugs": {
     "url": "https://github.com/kingshuknandy2016/node-typescript-postgresql/issues"
   },
-  "homepage": "https://github.com/kingshuknandy2016/node-typescript-postgresql#readme"
+  "homepage": "https://github.com/kingshuknandy2016/node-typescript-postgresql#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/pg": "^8.10.9",
+    "@typescript-eslint/eslint-plugin": "^6.18.0",
+    "@typescript-eslint/parser": "^6.18.0",
+    "db-migrate": "^0.11.14",
+    "db-migrate-pg": "^1.5.2",
+    "eslint": "^8.56.0",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "pg": "^8.11.3"
+  }
 }
