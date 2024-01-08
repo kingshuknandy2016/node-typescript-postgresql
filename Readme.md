@@ -1,8 +1,10 @@
-<html><center><h1>Basic Node Typescript Project</h1></center></html>
+<html><center><h1>Nodejs Project with PostgreSQL Setup</h1></center></html>
 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+
+This Node.js PostgreSQL project exemplifies a streamlined database setup using **_db-migration_** for efficient _table creation_ and _data seeding_. The integration of the **pg module** enhances data querying capabilities, providing a seamless interface between the Node.js application and PostgreSQL database. Ideal for developers seeking a concise and effective solution for database management in Node.js projects, this GitHub repository offers a combination of structured migration workflows and powerful data querying using the 'pg' module.The migration scripts, conveniently managed through a dedicated tool, facilitate version control and ease of deployment.
 
 # Table on Contents <!-- omit in toc -->
 
